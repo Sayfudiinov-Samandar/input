@@ -40,21 +40,34 @@
           </h2>
 
           <form class="form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
-            <input class="input-box" type="text" value="Anna" name="name" id="fe" minlength="2" aria-label="Name"placeholder="Name"  required>
-            <label for="fe">
-            </label>            
+              <label  for="fe">
+                <input class="input-box" type="text" value="Anna" name="name" id="fe" minlength="2" aria-label="Name" placeholder="Name"  required>
+                <div class="text">
+                  First Name cannot be empty   
+                </div>
+              </label>    
             
-            <label>
-            <input class="input-box"  type="text"  name="last-name" aria-label="Last name" minlength="2"  placeholder="last name" required>
-            </label>
+              <label for="fe">
+                <input class="input-box" type="text" name="last_name" id="fe" minlength="2" aria-label="name_lame" placeholder="Last Name"  required>
+                <div class="text">
+                  First Name cannot be empty   
+                </div>  
+              </label>    
 
-            <label>
-            <input class="input-box" type="email" name="Email Address" aria-label="Email Address"  placeholder="Email Address" required>
-            </label>
+              <label for="fe">
+                <input class="input-box" type="email" name="email" id="fe" aria-label="Your Email" placeholder="Email Address"  required>
+                <div class="text">
+                  First Name cannot be empty   
+                </div>  
+              </label>    
 
-            <label>
-            <input class="input-box end" type="password" name="namPassword" aria-label="Password" min="4" placeholder="Password" required>
-            </label>
+              <input class="input-box" type="password" name="user-password" id="fe" min="4" aria-label="Your password" placeholder="Password"  required>
+              <label for="fe">
+                <div class="text">
+                  First Name cannot be empty   
+                </div>  
+              </label>    
+            
             <button class="button" type="submit">
               Claim your free trial
             </button>
@@ -75,4 +88,4 @@
 </main>
 
 </body>
-</html> 
+</html>
