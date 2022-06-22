@@ -183,8 +183,8 @@ section{
 .input-box:not(:placeholder-shown):not(:focus):invalid + .text{
   opacity: 1;
 }
+
 .text{
-  text-align: right;
   background-color: #FFFFFF;
   margin-top: 4px;
   font-weight: 400;
